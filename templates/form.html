@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Анкета про историю языка</title>
+</head>
+<body>
+<form action="/statistics" method = 'POST'>
+    <fieldset>
+    <legend><b>Опрос про знание русской орфографии</b></legend>
+        Введите свой ник
+         <input type="text" name="nick"> <br>
+
+    Как вы оцениваете свое знание русского языка (по 5-бальной шкале)?<br>
+    <input type="radio" name="ask" value="1" checked>1<br>
+    <input type="radio" name="ask" value="2">2<br>
+        <input type="radio" name="ask" value="3" checked>3<br>
+    <input type="radio" name="ask" value="4">4<br>
+        <input type="radio" name="ask" value="5">5<br>
+    Является ли русский для вас родным языком?<br>
+    <input type="radio" name="native" value="yes">Да<br>
+        <input type="radio" name="native" value="no">Нет<br>
+        Какой из этих звуков был раньше в русском языке, которого нет сейчас?<br>
+    <input type="radio" name="vowel_1" value = "ь">ь<br>
+    <input type="radio" name="vowel_1" value = "ъ">ъ<br>
+    <input type="radio" name="vowel_1" value = "ѣ">ѣ<br>
+       Что из этого юс большой?<br>
+    <input type="radio" name="юс" value = "Ѧ">Ѧ<br>
+    <input type="radio" name="юс" value = "ѣ">ѣ<br>
+    <input type="radio" name="юс" value = "Ѫ">Ѫ<br>
+        Что из этого ять?<br>
+    <input type="radio" name="ять" value = "ь">ь<br>
+    <input type="radio" name="ять" value = "Ѩ">Ѩ<br>
+    <input type="radio" name="ять" value = "ѣ">ѣ<br>
+         Что из этого юс малый?<br>
+    <input type="radio" name="юс_м" value = "ω">ω<br>
+    <input type="radio" name="юс_м" value = "ь">ь<br>
+    <input type="radio" name="юс_м" value = "Ѧ">Ѧ<br>
+         Какая из этих букв обозначала звук о?<br>
+    <input type="radio" name="o1" value = "ѳ">ѳ<br>
+    <input type="radio" name="o1" value = "ω">ω<br>
+    <input type="radio" name="o1" value = "ѵ">ѵ<br>
+         Ваш пол?<br>
+         <input type="radio" name="gender" value = 'мужской'>мужской<br>
+         <input type="radio" name="gender" value = 'женский'>женский<br>
+        Ваш возраст?<br>
+        <input type="radio" name="age" value = 'до 20'>до 20<br>
+         <input type="radio" name="age" value = '20-25'>20-25<br>
+         <input type="radio" name="age" value = '25-35'>25-35<br>
+         <input type="radio" name="age" value = '20-35'>35-45<br>
+         <input type="radio" name="age" value = 'больше 45'>больше 45<br>
+    <p><input type="submit" value="Отправить"></p>
+    </fieldset>
+</form>
+
+</body>
+</html>
